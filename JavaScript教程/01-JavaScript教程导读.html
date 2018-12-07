@@ -9,5 +9,15 @@
 </head>
 <body>
 
+<script>
+    //显示日志函数；
+    function displayDate() {
+        date = document.getElementById("demo");
+        date.innerHTML = Date()
+    }
+</script>
+<h1>我的第一个JavaScript 程序</h1>
+<p id="demo">这里是一个段落</p>
+<input type="button" name="btn" value="显示日期" onclick="displayDate()">
 </body>
 </html>
